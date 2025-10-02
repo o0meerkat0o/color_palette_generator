@@ -1,0 +1,23 @@
+<!--the div class names were made by chatgpt for homestyle.css-->
+{% extends "base.html.j2" %}
+
+{% block head %}
+    <title>color</title>
+    <link rel="stylesheet" type="text/css" href="static/homestyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap">
+{% endblock %}
+
+{% block body %}
+<div class="page-title">
+    <h1>Pick a Color</h1>
+</div>
+
+<div class="confession-form">
+    <form method="POST" action="results">
+    <div class="color">
+        <input type="color" id="color" name="color" value=#ffdfef>
+    </div>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+{% endblock %}

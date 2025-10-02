@@ -1,0 +1,107 @@
+/* Pink-themed styles */
+body {
+    background-color: #ff7aa1; /* Light pink background */
+    font-family: 'Teko';
+    -webkit-text-fill-color: #00004d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 25px;
+    
+}
+
+.color-palette {
+    background-image: url('window.png'); /* Adjust the path based on your project structure */
+    background-size: 100% 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 500px; /* Adjust the width as needed */
+    height: 300px;
+    float: left; /* Float the color palette to the left */
+
+}
+
+.color-color {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row; /* Set flex-direction to row to arrange colors horizontally */
+    margin-bottom: 10px;
+    width: 450px; /* Adjust the width as needed */
+    max-width: 100%; /* Adjust the maximum width as needed */
+    height: 250px; /* Adjust the height as needed */
+    margin-top: 10px; /* Adjust the margin-top value to move the form down */
+    padding: 20px; /* Adjust the padding as needed */
+}
+
+
+.box1{
+    border-left: 5px solid #00b9ff;
+}
+.boxend{
+    border-right: 5px solid #00b9ff;
+}
+.color-box {
+    border-top: 5px solid #00b9ff;
+    border-bottom: 5px solid #00b9ff;
+    width: 100px;
+    height: 100px;
+}
+
+.page-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.confession-form {
+    background-image: url('window.png'); /* Adjust the path based on your project structure */
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 500px; /* Adjust the width as needed */
+    max-width: 100%; /* Adjust the maximum width as needed */
+    height: 250px; /* Adjust the height as needed */
+    margin: 10px auto 0; /* Adjust the margin-top value to move the form down */
+    padding: 20px; /* Adjust the padding as needed */
+   
+    text-align: center;
+    color: white; /* Text color inside the form */
+}
+
+
+
+
+
+
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    font-size: 20px;
+    font-family: 'Teko';
+    margin-top: 10px; 
+    width: 30%;
+    padding: 10px;
+    border: none;
+    background-color: #00b9ff; /* Dark pink color for the submit button */
+    -webkit-text-fill-color: #00004d;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="color"] {
+    width: 300px;
+    height: 100px;
+  }
+.color{
+    margin-top: 45px; 
+}
+input[type="submit"]:hover {
+    background-color: #0081af; /* Light pink color on hover */
+}
